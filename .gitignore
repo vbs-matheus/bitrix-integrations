@@ -175,5 +175,4 @@ cython_debug/
 .pypirc
 
 # company specific files
-class_email.py
 *.xlsx
