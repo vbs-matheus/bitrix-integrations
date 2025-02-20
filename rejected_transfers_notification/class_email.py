@@ -193,24 +193,3 @@ class Mail:
 			print("Email enviado com sucesso!")
 		except Exception as e:
 			print(f"Erro ao enviar o e-mail: {e}")
-
-
-# email_login = "hub@investsmart.com.br"
-# dw_pass_login = "Bitrix!admin"
-# conexao = Mail(
-#     "smtp.office365.com",
-#     587,
-#     email_login,
-#     dw_pass_login,
-# )
-
-
-# corpo_email = "oioioi"
-# id_solicitacao = "121231"
-
-# conexao.send(
-#     subject=f"Teste",
-# 	id_solicitacao=id_solicitacao,
-# 	corpo_email=corpo_email,
-#     email="matheus.santana@investsmart.com.br"
-#     )
