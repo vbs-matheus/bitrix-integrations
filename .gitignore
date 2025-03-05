@@ -175,4 +175,5 @@ cython_debug/
 .pypirc
 
 # company specific files
-*.xlsx
+*.json
+company_docs/
