@@ -53,7 +53,7 @@ def search_id(data, id_field=str, item_value=str):
 
 
 
-contact_data = get_fields("crm.contact.fields")
+contact_data = get_fields("crm.company.fields")
 filtered_json = filter_fields_json(contact_data)
 # id_search = search_id(filtered_json, "UF_CRM_651C5B773931F", "PF")
 # print(id_search)
